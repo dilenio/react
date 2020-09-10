@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+const arrayTasks = ['Acordar', 'Levantar', 'Tomar desjejum', 'Ir pra academia', 'Trabalhar', 'Estudar'];
 
 const task = (value) => {
   return (
@@ -9,10 +9,11 @@ const task = (value) => {
 }
 
 function App() {
-  const arrayTasks = ['Acordar', 'Levantar', 'Tomar desjejum', 'Ir pra academia', 'Trabalhar', 'Estudar'];
   return (
-    arrayTasks.map(element => task(element))
-    );
+    <ul>
+      {arrayTasks.map(element => task(element))}
+    </ul>
+  );
 }
 
 export default App;
