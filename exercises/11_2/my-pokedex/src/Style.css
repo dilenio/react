@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@400;600&display=swap');
+
+body {
+  background: rgb(174, 174, 174);
+}
+
+.title {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+  font-family: 'Kufam', cursive;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+  background: #4b4b4b;
+  margin: 0;
+  border-radius: 6px;
+}
+
+.image {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 200px;
+  border-radius: 6px;
+  background: #bfd4df;
+}
+
+image-gif {
+  width: 150px;
+}
+
+.card {
+  width: 200px;
+  background-color: #4b4b4b;
+  margin: 10px;
+  border-radius: 6px;
+}
+
+.type {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+
+.g-type {
+  background: green;
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 2px 5px;
+  text-align: center;
+}
+
+.weight {
+  background: rgb(150, 100, 100);
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 2px 5px;
+}
