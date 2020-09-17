@@ -37,6 +37,7 @@ class Pokedex extends Component {
       typeOfPokemons: param,
       numberOfPokemon: 0,
     }));
+
     console.log([...new Set(data.map((element) => element.type))]);
     console.log([
       ...new Set(data.reduce((types, { type }) => [...types, type], [])),
